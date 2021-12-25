@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:19:51:45 +0530] "GET /NewJspDemo/ToDoListDemo.jsp HTTP/1.1" 200 328
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:19:51:48 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:19:51:52 +0530] "GET /NewJspDemo/ToDoListDemo.jsp?theItem=Fill+the+Tank&submit=Submit HTTP/1.1" 200 352
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:19:51:55 +0530] "GET /NewJspDemo/ToDoListDemo.jsp?theItem=get+the+money&submit=Submit HTTP/1.1" 200 376
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:19:52:02 +0530] "GET /NewJspDemo/ToDoListDemo.jsp?theItem=+++++&submit=Submit HTTP/1.1" 200 376
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:19:54:15 +0530] "GET /NewJspDemo/ToDoListDemo.jsp HTTP/1.1" 200 328
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:19:54:16 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:20:06:52 +0530] "GET /NewJspDemo/Cokkies-personalize.html HTTP/1.1" 200 453
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:20:06:54 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:20:11:56 +0530] "GET /NewJspDemo/Cokkies-personalize.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:20:25:10 +0530] "GET /NewJspDemo/Cokkies-personalize.html HTTP/1.1" 304 -

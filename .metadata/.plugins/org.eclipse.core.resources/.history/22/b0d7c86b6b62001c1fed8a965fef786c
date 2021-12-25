@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Personalize the site</title>
+</head>
+<body>
+<form action="cookies-personalize-responce.jsp"></form>
+
+
+</body>
+</html>

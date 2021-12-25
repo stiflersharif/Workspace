@@ -1,0 +1,23 @@
+2,3,1,1,1,1,1,5,3,1,1,4,8,9}
+find the max length sub array where the sum of sub array is 5?
+
+A=[2,3,1,1,1,1,1,5,3,1,1,4,8,9]
+
+curr_sum =0;
+gloval_sum=0;
+int[] max_length;
+int lenth =0;
+int point=0;
+
+
+for(int i=0;i<A.lenght;i++){
+	if(curr_sum + A[i] <=5){
+		curr_sum = surr_sum +A[i];
+		lenht++;
+		if(curr_sum==5){
+			max_length.add(lenth);  // adding the length of suv array
+			lenth=0;
+			curr_sum=curr_sum-A.get(point);
+			point++;
+	   }	
+	

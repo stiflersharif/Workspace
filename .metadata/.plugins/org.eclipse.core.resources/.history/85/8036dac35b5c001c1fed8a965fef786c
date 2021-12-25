@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Registration Form</title>
+</head>
+<body>
+
+<form action="student-response.jsp">
+	First Name: <input type="text" name="FirstName"><br>
+	Last Name: <input type="text" name="LastName"><br>
+	Select Country:  <select name="Country">
+	<option>Algeria</option>
+	<option>Afghanistan</option>
+	<option>England</option>
+	<option>India</option>
+	<option>USA</option>
+	</select>
+	<br>
+	<input type="submit" value="submit">
+</form>
+
+</body>
+</html>

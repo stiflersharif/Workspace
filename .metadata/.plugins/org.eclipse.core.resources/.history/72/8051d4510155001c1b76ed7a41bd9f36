@@ -1,0 +1,36 @@
+package com.jarvis.SpringDemo;
+
+public class CricketCoach implements Coach {
+	
+	private FortuneService fortuneService;
+	public CricketCoach() {
+		// TODO Auto-generated constructor stub
+		System.out.println("Cricket coach for you");
+	}
+		
+	
+//	public FortuneService getFortuneService() {
+//		System.out.println("Cricket coach setter for you");
+//		return fortuneService;
+//	}
+
+
+	public void setFortuneService(FortuneService fortuneService) {
+		System.out.println("Cricket coach setter for you");
+		this.fortuneService = fortuneService;
+	}
+
+
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return "Practice straight drive for 15 min";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return "Today is your lucky day!";
+	}
+
+}

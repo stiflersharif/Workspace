@@ -1,0 +1,14 @@
+Write a program to remove all duplicate characters after its first occurance in a string without changing the order.
+
+input1 = aaabbbbcccc
+output1 = abc
+
+input2 = xyz
+output2 =xyz
+input3 = aaabbbbccccabcdabcd
+output3 = abcd
+
+Given an array whose elements are 14, 7, or 3. Sort this array efficiently.
+
+Input: 3,14,7,3,7,14,7,3
+Output: 3,3,3,7,7,7,14,14

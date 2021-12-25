@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>To Do List</title>
+</head>
+<body>
+<form action="ToDoDemo.jsp">
+	Add new To do list: <input type ="text" name = "theItem"/>
+	<br>
+	<input type="submit" name="submit"/>
+</form>
+
+<br>
+Item entered: <%= request.getParameter("theItem") %>
+</body>
+</html>

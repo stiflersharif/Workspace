@@ -1,0 +1,15 @@
+package TestJava;
+
+public class LinkedListTest {
+	Node head;
+	Node tail;	
+	
+	public Node getNode(int val) {
+		Node n = new Node();
+		n.data = val;
+		n.next = null;
+		
+		return n;
+	}
+
+}

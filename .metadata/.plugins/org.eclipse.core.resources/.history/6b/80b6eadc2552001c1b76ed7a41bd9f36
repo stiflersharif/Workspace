@@ -1,0 +1,10 @@
+package com.jarvis.SpringDemo;
+
+public class Tennis implements Coach{
+	@Override
+	public String getDailyWorkout() {
+		return "hit 10 Serves";
+	}
+
+
+}

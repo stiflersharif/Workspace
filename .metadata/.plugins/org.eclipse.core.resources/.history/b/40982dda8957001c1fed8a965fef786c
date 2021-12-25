@@ -1,0 +1,14 @@
+package com.jarvis.SpringAnnotations;
+
+import org.springframework.stereotype.Component;
+
+@Component("tennisCoach")
+public class TennisCoach implements Coach {
+
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return "Practice your cross shots";
+	}
+
+}

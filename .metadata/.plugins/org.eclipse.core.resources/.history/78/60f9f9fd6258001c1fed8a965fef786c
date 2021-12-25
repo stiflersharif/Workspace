@@ -1,0 +1,31 @@
+package com.jarvis.SpringAnnotations;
+
+import java.util.Random;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class RESTFortune implements FortuneService {
+	@Value("${REST.service}")
+	private String service;
+	
+	@Value("${REST.fortune}")
+	private String fortune;
+	
+	@Value("${REST.happy}")
+	private String happy;
+	
+	@Value("${REST.coach}")
+	private String coach;
+	
+	String[] arr= {service,fortune,happy,coach};
+	
+	private Random myrandom = new Random();	
+	
+	@Override
+	public String getFortune() {
+		int index = myrandom.nextInt(arr.length);
+		String fortuneteller = arr[index];
+		return fortuneteller;
+	}
+
+}

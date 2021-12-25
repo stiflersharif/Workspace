@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [25/Dec/2021:17:24:18 +0530] "GET /TagDemo/foreach-simple-test.jsp HTTP/1.1" 200 197
+127.0.0.1 - - [25/Dec/2021:17:45:16 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [25/Dec/2021:17:45:18 +0530] "GET /MvcDemo/Login.jsp HTTP/1.1" 200 364
+127.0.0.1 - - [25/Dec/2021:17:45:19 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [25/Dec/2021:17:45:34 +0530] "GET /MvcDemo/Login_servlet?user_name=Sharif&password=Hello&submit=Submit HTTP/1.1" 404 738
+0:0:0:0:0:0:0:1 - - [25/Dec/2021:17:46:14 +0530] "GET /MvcDemo/Login_servlet?user_name=Sharif&password=Hello&submit=Submit HTTP/1.1" 404 738
+0:0:0:0:0:0:0:1 - - [25/Dec/2021:17:46:19 +0530] "GET /MvcDemo/Login_servlet?user_name=Sharif&password=Password&submit=Submit HTTP/1.1" 200 158
+127.0.0.1 - - [25/Dec/2021:17:48:45 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Dec/2021:17:48:48 +0530] "GET /MvcDemo/Login.jsp HTTP/1.1" 200 383
+0:0:0:0:0:0:0:1 - - [25/Dec/2021:17:49:00 +0530] "POST /MvcDemo/Login_servlet HTTP/1.1" 200 158
