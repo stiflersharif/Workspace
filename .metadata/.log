@@ -6712,3 +6712,12 @@ org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementExc
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.wst.server.core 4 0 2021-12-26 01:38:12.734
+!MESSAGE Server Tomcat v9.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2021-12-26 01:38:36.144
+!MESSAGE Server Tomcat v9.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2021-12-26 01:39:23.053
+!MESSAGE Server Tomcat v9.0 Server at localhost failed to start.
