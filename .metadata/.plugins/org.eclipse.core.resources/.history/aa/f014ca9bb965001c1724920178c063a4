@@ -1,7 +1,0 @@
-package com.demo.mvc2;
-
-public class StudentDataUtil {
-	public static List<String> getStudents() {
-		
-	}
-}

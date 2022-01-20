@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=B\:\\Application\\Dev\\Hello-World\\.git;B\:\\Workspace\\FirstServletProject\\.git;C\:\\Users\\stifl\\git\\Coffee_Machine\\.git;
-GitRepositoriesView.GitDirectories.relative=B\:\\Application\\Dev\\Hello-World\\.git;FirstServletProject\\.git;C\:\\Users\\stifl\\git\\Coffee_Machine\\.git;
+GitRepositoriesView.GitDirectories=B\:\\Workspace\\.git;B\:\\Application\\Dev\\Hello-World\\.git;B\:\\Workspace\\FirstServletProject\\.git;C\:\\Users\\stifl\\git\\Coffee_Machine\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;B\:\\Application\\Dev\\Hello-World\\.git;FirstServletProject\\.git;C\:\\Users\\stifl\\git\\Coffee_Machine\\.git;
 RepositorySearchDialogSearchPath=B\:\\Application\\Dev\\Hello-World
 eclipse.preferences.version=1

@@ -1,9 +1,0 @@
-package com.jarvis.SpringAnnotations;
-
-public class HappyFortuneService {
-	@Override
-	public String getFortune(){
-		return "";
-	}
-
-}
